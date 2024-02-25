@@ -49,15 +49,15 @@ Changes in container (container name -->commitOs1) :--
 
            #docker build -t myOwnimage:v1 -f myYmlcode /mycodefolder/ 
         
-   " -t " --> To Declear name to custom image.
+   " -t " --> To Declare name to custom image.
    
-   " -f " --> Name of file where code put.
+   " -f " --> Name of file where code kept.
    
    " . " --> Current directory.
 
  Note:
  
-   In code when use interactive command then need to pass arguments.
+   In code when use interactive command then need to pass argument.
    example: yum install httpd -y
       
   "FORM" is a keyword in code file to tell about base image.(from base image we create new image)
