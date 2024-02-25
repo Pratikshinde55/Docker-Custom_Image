@@ -36,8 +36,9 @@ Changes in container (container name -->commitOs1) :--
 
 🌟 Custom image by Dockerfile 🌟
 
-      This method of creating Custom image use code(YAML), Creating own image by Code is fully
-      Automatic way.
+ This method of creating Custom image use code(YAML), Creating own image by Code is fully
+ Automatic way.
+ 
    ⚡In this process of creating custom image, We put all code in one file that is "Dockerfile"
 
            #docker build -t myOwnimage:v1 .
