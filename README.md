@@ -40,11 +40,11 @@ Changes in container (container name -->commitOs1) :--
  This method of creating Custom image use code(YAML), Creating own image by Code is fully
  Automatic way.
  
-    ⚡In this process of creating custom image, We put all code in one file that is "Dockerfile"
+   ⚡In this process of creating custom image, We put all code in one file that is "Dockerfile"
 
            #docker build -t myOwnimage:v1 .
         
-    ⚡& we also put code in custom name file but at Building image time we need to mention File 
+   ⚡& we also put code in custom name file but at Building image time we need to mention File 
       name & path / directory
 
            #docker build -t myOwnimage:v1 -f myYmlcode /mycodefolder/ 
@@ -56,8 +56,9 @@ Changes in container (container name -->commitOs1) :--
    " . " --> Current directory.
 
  Note:
+ 
       In code when use interactive command then need to pass arguments.
-      for ex: yum install httpd -y
+      example: yum install httpd -y
       
       "FORM" is a keyword in code file to tell about base image.(from base image we create new 
        image)
