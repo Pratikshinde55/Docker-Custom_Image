@@ -10,6 +10,7 @@ Create Custom image on Docker:
 ⚡There are two ways to Create Custom image:
 
   1.Docker Commit 
+  
   2.Docker file (Dockerfile)
 
 🌟 Custom image by Docker commit command 🌟
