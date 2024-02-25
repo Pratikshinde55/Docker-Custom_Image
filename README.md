@@ -57,19 +57,19 @@ Changes in container (container name -->commitOs1) :--
 
  Note:
  
-      In code when use interactive command then need to pass arguments.
-      example: yum install httpd -y
+   In code when use interactive command then need to pass arguments.
+   example: yum install httpd -y
       
-      "FORM" is a keyword in code file to tell about base image.(from base image we create new 
-       image)
-      "RUN" is keyword in code file for running commands.
+  "FORM" is a keyword in code file to tell about base image.(from base image we create new image)
+
+  "RUN" is keyword in code file for running commands.
 
  
    Use commad to build image from Code(Dockerfile):
 
            #docker build -t myimage:v1 .
            
-    Running container from own custom image(myimage:v1):
+   Running container from own custom image(myimage:v1):
 
            #docker run -it --name myos1 myimage:v1
 
