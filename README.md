@@ -5,7 +5,7 @@ Create Custom image on Docker:
 
  Purpose of creating Custom image ?
  
-  When requirement is to create container with lot of custom settings.In container world we share images but not share container.
+  When requirement is to create container with lot of custom settings. In container world we share images but not share container.
 
 ⚡There are two ways to Create Custom image:
 
