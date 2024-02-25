@@ -9,13 +9,13 @@ Create Custom image on Docker:
 
 ⚡There are two ways to Create Custom image:
 
-     1.Docker Commit 
-     2.Docker file (Dockerfile)
+    1.Docker Commit 
+    2.Docker file (Dockerfile)
 
 🌟 Custom image by Docker commit command 🌟
-    
-      In this method of creating custom image , 1st we launch conatiner and what we want to changes
-      or add anything that on Conatiner, Then create image from precreated container.
+  
+    In this method of creating custom image , 1st we launch conatiner and what we want to changes
+    or add anything that on Conatiner, Then create image from precreated container.
          
       Changes in container (container name -->commitOs1) :--
       
