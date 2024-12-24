@@ -8,8 +8,8 @@ Create Custom image on Docker:
  When requirement is to create container with lot of custom settings. In container world we share images but not share container.
 
 ### There are two ways to Create Custom image using Docker:
- 1.Docker Commit command
- 2.Docker Build command (Dockerfile)
+  1.Docker Commit command
+  2.Docker Build command (Dockerfile)
 
 ## Custom image by Docker commit command:
 
