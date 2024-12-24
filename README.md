@@ -31,38 +31,35 @@ Run container from Custom own image(myos1:v1)
 ## Method:2 - [Custom image by Dockerfile]
 This method of creating Custom image use code(YAML), Creating own image by Code is fully Automatic way.
  
-   ⚡In this process of creating custom image, We put all code in one file that is "Dockerfile"
+In this process of creating custom image, We put all code in one file that is "Dockerfile"
 
-           #docker build -t myOwnimage:v1 .
+    docker build -t myOwnimage:v1 .
         
-   ⚡& we also put code in custom name file but at Building image time we need to mention File 
-      name & path / directory
+& we also put code in custom name file but at Building image time we need to mention File name & path / directory
 
-           #docker build -t myOwnimage:v1 -f myYmlcode /mycodefolder/ 
+    docker build -t myOwnimage:v1 -f myYmlcode /mycodefolder/ 
         
-   " -t " --> To Declare name to custom image.
+" -t " --> To Declare name to custom image.
    
-   " -f " --> Name of file where code kept.
+" -f " --> Name of file where code kept.
    
-   " . " --> Current directory.
+" . " --> Current directory.
 
- Note:
+- Note:
  
-   In code when use interactive command then need to pass argument.
-   example: yum install httpd -y
+In code when use interactive command then need to pass argument. example: yum install httpd -y
       
-  "FORM" is a keyword in code file to tell about base image.(from base image we create new image)
+"FORM" is a keyword in code file to tell about base image.(from base image we create new image)
 
-  "RUN" is keyword in code file for running commands.
+"RUN" is keyword in code file for running commands.
 
- 
-   Use commad to build image from Code(Dockerfile):
+Use commad to build image from Code(Dockerfile):
 
-           #docker build -t myimage:v1 .
+     docker build -t myimage:v1 .
            
-   Running container from own custom image(myimage:v1):
+Running container from own custom image(myimage:v1):
 
-           #docker run -it --name myos1 myimage:v1
+     docker run -it --name myos1 myimage:v1
 
-  ![Screenshot 2024-02-20 185049](https://github.com/Pratikshinde55/Docker-Custom_Image/assets/145910708/56be20a1-8464-41c9-becd-5ddf2a4fa8ee)
+![Screenshot 2024-02-20 185049](https://github.com/Pratikshinde55/Docker-Custom_Image/assets/145910708/56be20a1-8464-41c9-becd-5ddf2a4fa8ee)
          
