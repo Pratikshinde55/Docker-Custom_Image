@@ -39,9 +39,9 @@ In this process of creating custom image, We put all code in one file that is "D
 
     docker build -t myOwnimage:v1 -f myYmlcode /mycodefolder/ 
         
-" -t " --> To Declare name to custom image.
+" -t " --> To Declare name to custom image(tag).
    
-" -f " --> Name of file where code kept.
+" -f " --> Name of file where code kept(file).
    
 " . " --> Current directory.
 
